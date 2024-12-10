@@ -1,5 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .section{
     border: 1px solid whitesmoke;
     border-radius: 15px;
     padding: 15px;
+    margin: 20px 0;
+}
+
+p{
+    font-size: 1.8rem;
 }
