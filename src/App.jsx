@@ -37,17 +37,20 @@ function App() {
   }
   return (
     <div id="main">
+      <h1>CV Application</h1>
+      <div id="content">
       <div id="sections">
         <PersonalInfoSection onChange={handleChange} dataObject={dataObject} />
         <EducationSection onChange={handleChange} dataObject={dataObject} />
         <ExperienceSection onChange={handleChange} dataObject={dataObject} />
-        <SkillsSection  onChange={handleChange} dataObject={dataObject}/>
+        <SkillsSection onChange={handleChange} dataObject={dataObject}/>
       </div>
       <div id="preview">
         <PersonalInfoPreview dataObject={dataObject} />
         <EducationPreview dataObject={dataObject} />
         <ExperiencePreview dataObject={dataObject} />
         <SkillsPreview dataObject={dataObject} />
+      </div>
       </div>
     </div>
   );

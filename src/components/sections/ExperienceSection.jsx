@@ -22,7 +22,7 @@ function ExperienceSection({ onChange, dataObject }) {
           onChange: onChange,
         };
 
-        return field.includes("Date") ? (
+        return field.includes("date") ? (
           <DateField key={index} props={props}></DateField>
         ) : field.includes("responsibilities") ? (
           <TextArea key={index} props={props}></TextArea>

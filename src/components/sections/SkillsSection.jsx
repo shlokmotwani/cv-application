@@ -13,7 +13,7 @@ function SkillsSection({onChange, dataObject}) {
           dataObject: dataObject,
           onChange: onChange,
         };
-        return <TextField key={index} props={props}></TextField>          
+        return <TextField key={index} props={props} />          
       })}
     </div>
   );

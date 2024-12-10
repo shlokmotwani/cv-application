@@ -1,6 +1,6 @@
 import { TextField } from "../TextField";
 import { TextArea } from "../TextArea";
-import "../../styles/PersonalInfoSection.css";
+import "../../styles/Sections.css";
 
 function PersonalInfoSection({onChange, dataObject}) {
   const fields = ["name", "email", "phone", "about"];
